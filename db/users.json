@@ -1,0 +1,27 @@
+[
+    {
+        "id":"zngr88ulzwh",
+        "username":"johndoe",
+        "email":"johndoe@gmail.com",
+        "isAdmin": true,
+        "password":"$2b$10$.tZxUMQfG3hjvjDEFi9VL.pC5QI7zg.FGX91K34qChab67sdHvcyq"
+    },
+       
+    {
+            "id":"cgjsp59ks1c",
+            "username":"petergabriel",
+            "email":"petergabriel@gmail.com",
+            "isAdmin": false,
+            "password":"$2b$10$.tZxUMQfG3hjvjDEFi9VL.pC5QI7zg.FGX91K34qChab67sdHvcyq"
+    },
+        
+    {
+            "id":"ofoguy5uq3a",
+            "username":"annhathaway",
+             "email":"ann@gmail.com",
+             "isAdmin": false,
+             "password":"$2b$10$.tZxUMQfG3hjvjDEFi9VL.pC5QI7zg.FGX91K34qChab67sdHvcyq"
+    }
+
+    ]
+

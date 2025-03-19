@@ -1,5 +1,4 @@
 
-![Alt text](static-files/images/login-page.png)
 
 Since all users' passwords are encrypted using bcryptjs module , You have to use the same passwords I used for each of them in order to log in.The purpose of this basic express app is to showcase how signed cookies work for data persistance and authentication. Furthermore, the database interacts with a custom service api that I also built. Of course, this is one of many approach like Jason Web Token tokens and session management which I will be uploading as well later on.
 

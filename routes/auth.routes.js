@@ -68,6 +68,3 @@ router.post('/logout', (req, res) => {
 
 module.exports = router;
 
-// note
-//     cookie: 'session=s%3Auser123.E6m4p2wYTxoVi6XQObjf19IHMQXXS5tFGgzNt%2B5pVxg'
-// decoded: s:user123.E6m4p2wYTxoVi6XQObjf19IHMQXXS5tFGgzNt+5pVxg

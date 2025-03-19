@@ -39,8 +39,9 @@ function isLoggedIn(req, res, next) {
 
     if (verifiedValue) {
         const user = apiService.findOne({ id: verifiedValue });
-        const { id, username, isAdmin } = user;
-        req.currentUser = { id, username, isAdmin };
+        const { id, name, isAdmin } = user;
+        req.currentUser = { id, name, isAdmin };
+        res.locals.user = req.currentUser;
     } else {
         res.redirect('/login')
     }
@@ -51,7 +52,7 @@ function isLoggedIn(req, res, next) {
 
 function isAdmin(req, res, next) {
     if (!req.currentUser || !req.currentUser.isAdmin) {
-        res.status(403).render('auth/403.hbs')
+        res.status(403).render('auth/403-error.hbs')
         return;
     }
     next()

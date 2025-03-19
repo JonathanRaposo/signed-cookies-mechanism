@@ -3,8 +3,9 @@ const express = require('express');
 const app = express();
 
 
-// configuration middleware functions
+// configuration middleware functionsgtig
 require('./config/index.js')(app);
+
 
 // ROUTES HERE
 

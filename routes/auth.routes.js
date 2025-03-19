@@ -23,7 +23,7 @@ const { isLoggedIn, isAdmin } = require('../middleware/route-guard.js');
 
 router.get('/login', (req, res) => {
     res.render('auth/login.hbs');
-});
+})
 
 router.post('/login', (req, res) => {
 

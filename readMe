@@ -1,0 +1,19 @@
+Since all users' passwords are encrypted using bcryptjs module , You have to use the same passwords I used for each of them in order to log in.The purpose of this basic express app is to showcase how signed cookies work for data persistance and authentication. Furthermore, the database interacts with a custom service api that I also built. Of course, this is one of many approach like Jason Web Token tokens and session management which I will be uploading as well later on.
+
+Available users credentials for loggin in:
+
+email: john@gmail.com
+password: 'John123'
+
+---
+
+email: anne@gmail.com
+password:'Ann123'
+
+---
+
+email:peter@gmail.com  
+password: 'Peter123';
+
+note: try using a different password or email to see the loggin validation process.
+

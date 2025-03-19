@@ -1,26 +1,26 @@
 [
     {
         "id":"zngr88ulzwh",
-        "username":"johndoe",
-        "email":"johndoe@gmail.com",
-        "isAdmin": true,
-        "password":"$2b$10$.tZxUMQfG3hjvjDEFi9VL.pC5QI7zg.FGX91K34qChab67sdHvcyq"
+        "name":"John Thompson",
+        "email":"john@gmail.com",
+        "isAdmin":false,
+        "password":"$2b$10$4Pw8HjtDAIcOvaQ6AJJ0H.zC5643AtYXqMjFGf7AdETHBUUylI7LG"
     },
        
     {
             "id":"cgjsp59ks1c",
-            "username":"petergabriel",
-            "email":"petergabriel@gmail.com",
-            "isAdmin": false,
-            "password":"$2b$10$.tZxUMQfG3hjvjDEFi9VL.pC5QI7zg.FGX91K34qChab67sdHvcyq"
+            "name":"Peter Gabriel",
+            "email":"peter@gmail.com",
+            "isAdmin": true,
+            "password":"$2b$10$4Pw8HjtDAIcOvaQ6AJJ0H.yDBJC8i5iVYUbZxzRPSzmCtHVWKe/ni"
     },
         
     {
             "id":"ofoguy5uq3a",
-            "username":"annhathaway",
+            "name":"Ann Smith",
              "email":"ann@gmail.com",
              "isAdmin": false,
-             "password":"$2b$10$.tZxUMQfG3hjvjDEFi9VL.pC5QI7zg.FGX91K34qChab67sdHvcyq"
+             "password":"$2b$10$4Pw8HjtDAIcOvaQ6AJJ0H.1f4o2J7HwciXYB08r5zYCTkuPbvqjpW"
     }
 
     ]

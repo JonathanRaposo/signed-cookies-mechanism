@@ -9,29 +9,33 @@
 <body>
     <nav>
         <ul>
+
             <li>
-                <a href="/login">Login</a>
+                <a href="/">Home</a>
             </li>
-                
-                
-                 {{#if user}}
-                    <li>
-                       <a href="/userProfile">Profile</a>
-                    </li>
-                 {{/if}}
+  
 
-
-               {{#if user.isAdmin}}
+                
+              <li>
+                 <a href="/userProfile">Profile</a>
+               </li>
+                   
+               
                  <li>
                    <a href="/admin">Admin</a>
                 </li>
-               {{/if}}
+              
                
              <li>
                 <form action="/logout" method="POST">
                 <button type="submit">Logout</button>
                 </form>
             </li>
+     
+               <li>
+                  <a href="/login">Login</a>
+               </li>
+   
            
         </ul>
     </nav>
